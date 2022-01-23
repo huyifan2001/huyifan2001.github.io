@@ -118,11 +118,6 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
-
-  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
@@ -179,7 +174,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://huyifan2001.github.io/2022/01/22/index/">
+    <link itemprop="mainEntityOfPage" href="https://huyifan2001.github.io/Opt/basic/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/me.png">
@@ -193,7 +188,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/01/22/index/" class="post-title-link" itemprop="url">WELCOME TO ICARUS"S NET!</a>
+            <a href="/Opt/basic/" class="post-title-link" itemprop="url">Basic Knowledge</a>
         </h2>
 
         <div class="post-meta">
@@ -204,7 +199,16 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-01-22 22:38:27 / Modified: 21:55:19" itemprop="dateCreated datePublished" datetime="2022-01-22T22:38:27+08:00">2022-01-22</time>
+              <time title="Created: 2022-01-23 12:34:15 / Modified: 19:06:28" itemprop="dateCreated datePublished" datetime="2022-01-23T12:34:15+08:00">2022-01-23</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Opt/" itemprop="url" rel="index"><span itemprop="name">Opt</span></a>
+                </span>
             </span>
 
           
@@ -218,11 +222,158 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="welcome">WELCOME</h1>
-<p>一名正在挣扎的大数据学生，似乎对于任何的方向都感兴趣。</p>
+          <h2 id="预备知识">预备知识</h2>
+<p>从运算角度，可以从另一方面理解锥的意义。定义以下的运算：对于 <span class="math inline">\(\Lambda \subseteq R\)</span>, <span class="math display">\[\Lambda C = \{\lambda c \, |\, \lambda \in \Lambda,\, c \in C \}\]</span> 从锥的定义而言，就是定义了一类的集合，在<span class="math inline">\(\Lambda = R^+\)</span>的乘法运算下，保持不变性。</p>
+<p>一些拓扑的知识不再深究，有兴趣可以读读Rudin第二章，基本上所有的东西自己证明一遍大概都能懂。这部分技巧性很高。</p>
+<h2 id="凸集合分离定理">凸集合分离定理</h2>
+<p>最重要的也是最关键的理论之一，是凸集分离定理。凸集分离定理最重要的一点，在于叙述了一个集合，与一个不在该集合中的点，可以通过一种拓扑性质研究二者关系。具体而言，有下面的定理：</p>
+<div class="note default">
+            <h4 id="exercise-1.1.4">exercise 1.1.4</h4><p>If <span class="math inline">\(A+C \subseteq B+C\)</span>, <span class="math inline">\(B\)</span> is convex and closed, <span class="math inline">\(C\)</span> is bounded, prove <span class="math inline">\(A \subseteq B\)</span></p><p>实际上，上述问题等价于证明 If <span class="math inline">\(C \subseteq B+C\)</span>, <span class="math inline">\(B\)</span> is convex and closed, <span class="math inline">\(C\)</span> is bounded, prove <span class="math inline">\(0 \in B\)</span></p><p>反证法用凸集分离定理，<span class="math inline">\(\forall b \in B\)</span>, <span class="math inline">\(\exists a\)</span>, $ &lt;a,b&gt; &lt; 0$ 那么很容易得到 <span class="math inline">\(&lt;a, b+c&gt; &lt; &lt;a,c&gt;\)</span>（简单的运算性质）</p>
+          </div>
+<p>TO BE CONTINUED</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://huyifan2001.github.io/Opt/OP_intro/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me.png">
+      <meta itemprop="name" content="Icarus Hu">
+      <meta itemprop="description" content="欢迎催更 :)">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Icarus's Net">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Opt/OP_intro/" class="post-title-link" itemprop="url">Introduction of Optimization</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-01-23 12:25:28 / Modified: 13:16:04" itemprop="dateCreated datePublished" datetime="2022-01-23T12:25:28+08:00">2022-01-23</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Opt/" itemprop="url" rel="index"><span itemprop="name">Opt</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="list-of-notes">List of notes</h3>
+<p>现在还是草稿，后续会继续整理排版</p>
+<ul>
+<li><a href="/Opt/basic/index.html">基础知识</a></li>
+<li>不等式相关补充</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://huyifan2001.github.io/uncategorized/index/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me.png">
+      <meta itemprop="name" content="Icarus Hu">
+      <meta itemprop="description" content="欢迎催更 :)">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Icarus's Net">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/uncategorized/index/" class="post-title-link" itemprop="url">WELCOME TO ICARUS"S NET!</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-01-22 22:38:27" itemprop="dateCreated datePublished" datetime="2022-01-22T22:38:27+08:00">2022-01-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-01-23 13:16:04" itemprop="dateModified" datetime="2022-01-23T13:16:04+08:00">2022-01-23</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>一名正在挣扎的大数据学生，似乎对于任何的方向都感兴趣。</p>
 <p>这个假期我会更新优化和实变函数（主要服务高等概率论，不是系统的学习）内容。优化的内容更加靠谱一些。由于实变函数是我自学的，错的地方肯定会很多，恳请大家指正。现在正在学习的过程中。。。不定期更新，欢迎催更 :)</p>
-<h4 id="优化理论目录">优化理论目录</h4>
-<h4 id="实变函数目录">实变函数目录</h4>
+<h3 id="library">library</h3>
+<ul>
+<li><a href="/Opt/OP_intro/index.html">优化理论</a></li>
+</ul>
 
       
     </div>
@@ -306,9 +457,13 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span>
       </div>
   </nav>
 </div>
@@ -413,6 +568,59 @@
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 

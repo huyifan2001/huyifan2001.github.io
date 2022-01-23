@@ -4,11 +4,49 @@
   
     
     <entry>
-      <title>WELCOME TO ICARUS&quot;S NET!</title>
-      <link href="/2022/01/22/index/"/>
-      <url>/2022/01/22/index/</url>
+      <title>Basic Knowledge</title>
+      <link href="/Opt/basic/"/>
+      <url>/Opt/basic/</url>
       
-        <content type="html"><![CDATA[<h1 id="welcome">WELCOME</h1><p>一名正在挣扎的大数据学生，似乎对于任何的方向都感兴趣。</p><p>这个假期我会更新优化和实变函数（主要服务高等概率论，不是系统的学习）内容。优化的内容更加靠谱一些。由于实变函数是我自学的，错的地方肯定会很多，恳请大家指正。现在正在学习的过程中。。。不定期更新，欢迎催更 :)</p><h4 id="优化理论目录">优化理论目录</h4><h4 id="实变函数目录">实变函数目录</h4>]]></content>
+        <content type="html"><![CDATA[<h2 id="预备知识">预备知识</h2><p>从运算角度，可以从另一方面理解锥的意义。定义以下的运算：对于 <span class="math inline">\(\Lambda \subseteq R\)</span>, <span class="math display">\[\Lambda C = \{\lambda c \, |\, \lambda \in \Lambda,\, c \in C \}\]</span> 从锥的定义而言，就是定义了一类的集合，在<span class="math inline">\(\Lambda = R^+\)</span>的乘法运算下，保持不变性。</p><p>一些拓扑的知识不再深究，有兴趣可以读读Rudin第二章，基本上所有的东西自己证明一遍大概都能懂。这部分技巧性很高。</p><h2 id="凸集合分离定理">凸集合分离定理</h2><p>最重要的也是最关键的理论之一，是凸集分离定理。凸集分离定理最重要的一点，在于叙述了一个集合，与一个不在该集合中的点，可以通过一种拓扑性质研究二者关系。具体而言，有下面的定理：</p><div class="note default">            <h4 id="exercise-1.1.4">exercise 1.1.4</h4><p>If <span class="math inline">\(A+C \subseteq B+C\)</span>, <span class="math inline">\(B\)</span> is convex and closed, <span class="math inline">\(C\)</span> is bounded, prove <span class="math inline">\(A \subseteq B\)</span></p><p>实际上，上述问题等价于证明 If <span class="math inline">\(C \subseteq B+C\)</span>, <span class="math inline">\(B\)</span> is convex and closed, <span class="math inline">\(C\)</span> is bounded, prove <span class="math inline">\(0 \in B\)</span></p><p>反证法用凸集分离定理，<span class="math inline">\(\forall b \in B\)</span>, <span class="math inline">\(\exists a\)</span>, $ &lt;a,b&gt; &lt; 0$ 那么很容易得到 <span class="math inline">\(&lt;a, b+c&gt; &lt; &lt;a,c&gt;\)</span>（简单的运算性质）</p>          </div><p>TO BE CONTINUED</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Opt </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Introduction of Optimization</title>
+      <link href="/Opt/OP_intro/"/>
+      <url>/Opt/OP_intro/</url>
+      
+        <content type="html"><![CDATA[<h3 id="list-of-notes">List of notes</h3><p>现在还是草稿，后续会继续整理排版</p><ul><li><a href="/Opt/basic/index.html">基础知识</a></li><li>不等式相关补充</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Opt </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>WELCOME TO ICARUS&quot;S NET!</title>
+      <link href="/uncategorized/index/"/>
+      <url>/uncategorized/index/</url>
+      
+        <content type="html"><![CDATA[<p>一名正在挣扎的大数据学生，似乎对于任何的方向都感兴趣。</p><p>这个假期我会更新优化和实变函数（主要服务高等概率论，不是系统的学习）内容。优化的内容更加靠谱一些。由于实变函数是我自学的，错的地方肯定会很多，恳请大家指正。现在正在学习的过程中。。。不定期更新，欢迎催更 :)</p><h3 id="library">library</h3><ul><li><a href="/Opt/OP_intro/index.html">优化理论</a></li></ul>]]></content>
       
       
       
